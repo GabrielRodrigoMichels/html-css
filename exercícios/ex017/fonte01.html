@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: monospace, sans-serif; /* Sempre escolher Safe Combinations para que funcione em todos dispositivos caso algum deles não possua determinadas fontes */
+            
+            font-size: 1em; /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+
+            Recomendadas:
+            em e px
+            geralmente 16px = 1em
+            */
+
+            font-weight: normal;/* Peso da fonte */
+
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h1 {
+            /* font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 2em;
+            font-style: italic;
+             shorthand font
+            ordem: font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 2em 'courier new', courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio itaque possimus aliquam quia quod id maxime! Eius laborum a repudiandae, ea eligendi minima sed fugit tempora, ullam eaque doloribus id dolore atque sunt vero dolores excepturi distinctio? Laudantium corrupti, illo voluptatum iure excepturi, tempora tempore fugiat totam enim quas architecto!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus commodi sapiente, fugiat corrupti praesentium velit voluptate et. Cumque labore eaque alias ratione recusandae odit ipsa nam, molestias quasi magnam mollitia!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum ut porro eaque! Impedit maxime corporis id! Eum, amet ratione saepe nesciunt nostrum quos excepturi vitae? Sed natus aliquam unde iusto corrupti molestias corporis iure. Molestias unde quisquam, amet laborum esse totam numquam explicabo officia saepe autem. Quam, ex amet.</p>
+</body>
+</html>
