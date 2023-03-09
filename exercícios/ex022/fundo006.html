@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            
+            /*
+            Shorthand - background
+            color > image > position > repeat > [size]Não está funcionando nos navegadores > atachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +39,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat magni veritatis voluptatum dolorem dolore et natus recusandae blanditiis temporibus non perspiciatis culpa, amet voluptatibus sunt nam qui illo! Mollitia nisi explicabo optio nobis perferendis numquam tenetur. Magnam cupiditate laboriosam consequatur provident repudiandae, quis delectus suscipit, quam corporis nisi porro explicabo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores minima. Labore eius accusamus voluptates eum suscipit totam itaque eligendi blanditiis facilis fuga quod quas maiores minima accusantium, assumenda iste vitae corrupti vel sit, excepturi ipsam ab fugit, alias similique. Quisquam harum recusandae consectetur rerum quam excepturi natus minus repudiandae assumenda quis, repellendus, esse ab corrupti explicabo. Laborum possimus, nobis modi necessitatibus placeat doloremque ipsum enim a, ea dolores quod quisquam iste reiciendis eveniet vitae in. Maxime id nulla praesentium ducimus voluptates autem tenetur est dolorum, ratione quas beatae cupiditate omnis commodi sint alias eveniet. Doloribus perspiciatis facilis dignissimos. Veritatis ratione vitae quae ea distinctio facere dignissimos, voluptatem nulla ut vel doloribus odit veniam est nemo quasi pariatur tenetur ullam facilis! Nobis commodi consequuntur et labore repudiandae esse quam doloribus veritatis exercitationem saepe ex quos eveniet quae, dolores corrupti necessitatibus quidem aliquam qui odio nisi quaerat. Deleniti eius, repudiandae cum temporibus vel iure ea nostrum, velit iusto fugiat culpa quisquam! Neque libero voluptatem tempore sit temporibus debitis quisquam, adipisci officia eos, voluptas ratione laborum tenetur reiciendis ad nemo! Excepturi, tenetur voluptatum temporibus, autem est illo a nesciunt dolor, voluptates laudantium nihil illum mollitia. Eius officiis nostrum eaque quo excepturi, quos in facilis laborum sit impedit veniam culpa vitae exercitationem aspernatur. Cupiditate placeat tenetur tempore fugit adipisci unde repellendus. Tempora et id earum. Odio vel expedita fugit placeat? Itaque, ad facilis! Sequi est iusto molestiae eum architecto, commodi quisquam vero delectus necessitatibus adipisci, ullam praesentium quibusdam assumenda distinctio quaerat deserunt vel. At accusamus quis, voluptas fugiat tempore nesciunt vitae, eos, eveniet ipsam perspiciatis quia similique sequi a? Facilis ab voluptatum adipisci harum dicta nostrum enim. Asperiores esse aspernatur rerum inventore necessitatibus repellendus tempore, rem, deserunt consequatur amet molestiae ex quod est sit illo aut eum minima? Maiores voluptatibus nostrum at vero.</p>
     </main>
 </body>
 </html>
